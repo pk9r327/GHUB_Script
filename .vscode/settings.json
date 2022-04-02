@@ -1,0 +1,11 @@
+{
+    "Lua.diagnostics.globals": [
+        "PressMouseButton",
+        "EnablePrimaryMouseButtonEvents",
+        "OutputLogMessage",
+        "GetRunningTime",
+        "ReleaseMouseButton",
+        "PressKey",
+        "ReleaseKey"
+    ]
+}
