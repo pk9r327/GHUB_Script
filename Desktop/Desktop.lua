@@ -10,12 +10,12 @@ TIME_CHANGE_MODE = 1000
 
 IS_DEBUG = false
 
-dofile[[D:\GHUB_Script\Mouse\Command.lua]]
-dofile[[D:\GHUB_Script\Mouse\Mode.lua]]
-dofile[[D:\GHUB_Script\Mouse\NormalMode.lua]]
-dofile[[D:\GHUB_Script\Mouse\DesktopMode.lua]]
-dofile[[D:\GHUB_Script\Mouse\SelectWindowsMode.lua]]
-dofile[[D:\GHUB_Script\Mouse\PastedMode.lua]]
+dofile[[D:\GHUB_Script\Desktop\Mouse\Command.lua]]
+dofile[[D:\GHUB_Script\Desktop\Mouse\Mode.lua]]
+dofile[[D:\GHUB_Script\Desktop\Mouse\NormalMode.lua]]
+dofile[[D:\GHUB_Script\Desktop\Mouse\DesktopMode.lua]]
+dofile[[D:\GHUB_Script\Desktop\Mouse\SelectWindowsMode.lua]]
+dofile[[D:\GHUB_Script\Desktop\Mouse\PastedMode.lua]]
 
 local mode = 0
 local lastTimeChangeMode = 0
