@@ -33,7 +33,7 @@ function DesktopMode:MouseButtonPressed4()
 end
 
 function DesktopMode:MouseButtonPressed5()
-    SelectDesktops()
+    SelectEdgeTabs()
     ChangeMode(NORMAL_CODE)
 end
 

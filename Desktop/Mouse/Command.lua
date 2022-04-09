@@ -54,4 +54,9 @@ function Paste()
     PressKey("lctrl", "v")
     ReleaseKey("lctrl", "v")
 end
+
+function SelectEdgeTabs()
+    PressKey("lctrl", "lshift", "a")
+    ReleaseKey("lctrl", "lshift", "a")
+end
 --------------------------------------------------------------------------------
