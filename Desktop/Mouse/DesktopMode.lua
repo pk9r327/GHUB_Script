@@ -12,7 +12,7 @@ function DesktopMode:new(o, modeCode)
 end
 
 function DesktopMode:MouseButtonPressed1()
-    SelectPreviousDesktop()
+    --SelectPreviousDesktop()
 end
 
 function DesktopMode:MouseButtonReleased1()
@@ -20,7 +20,7 @@ function DesktopMode:MouseButtonReleased1()
 end
 
 function DesktopMode:MouseButtonPressed2()
-    SelectNextDesktop()
+    --SelectNextDesktop()
 end
 
 function DesktopMode:MouseButtonReleased2()
@@ -38,7 +38,7 @@ function DesktopMode:MouseButtonPressed5()
 end
 
 function DesktopMode:MouseButtonPressed6()
-    SelectWindows()
+    SelectDesktops()
     ChangeMode(SELECT_WINDOWS_CODE)
 end
 --------------------------------------------------------------------------------

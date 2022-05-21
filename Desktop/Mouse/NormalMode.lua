@@ -12,20 +12,20 @@ function NormalMode:new(o, modeCode)
 end
 
 function NormalMode:MouseButtonPressed1()
-    PressMouseButton(LEFT_MOUSE_BUTTON)
+    --PressMouseButton(LEFT_MOUSE_BUTTON)
 end
 
 function NormalMode:MouseButtonReleased1()
-    ReleaseMouseButton(LEFT_MOUSE_BUTTON)
+    --ReleaseMouseButton(LEFT_MOUSE_BUTTON)
     ChangeMode(NORMAL_CODE)
 end
 
 function NormalMode:MouseButtonPressed2()
-    PressMouseButton(RIGHT_MOUSE_BUTTON)
+    --PressMouseButton(RIGHT_MOUSE_BUTTON)
 end
 
 function NormalMode:MouseButtonReleased2()
-    ReleaseMouseButton(RIGHT_MOUSE_BUTTON)
+    --ReleaseMouseButton(RIGHT_MOUSE_BUTTON)
     ChangeMode(NORMAL_CODE)
 end
 
